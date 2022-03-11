@@ -31,11 +31,11 @@ export const WButton = styled.button`
   font-weight: 600;
   font-size: 16px;
   margin-top: 1rem;
+  margin-bottom: 0.75rem;
 `;
 
 export const WordsContainer = styled.div`
-  width: 80%;
-  max-width: 450px;
+  width: 100%;
   margin: 15px 0;
   padding-top: 15px;
   border: 1px solid black;
@@ -98,7 +98,6 @@ export const WSearchInputWrapper = styled.div`
  display:flex;
  flex-wrap:wrap;
  width:100%;
- max-width: 350px;
  justify-content: space-between;
  align-items: center;
  margin: 0.75rem 0;
